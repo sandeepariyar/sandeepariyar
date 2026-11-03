@@ -29,7 +29,7 @@
 **Software (~10 years)**
 - Almost 5 years at **The Qt Company**
 - 3 years at **Siili Solutions**
-- 2 years at another IT company
+- 2 years at CyberLightning IT Company
 - Qt/QML, C++ middleware, embedded Linux HMI, 6 MCU applications from design to finish
 - Medical scanning application built with Qt
 - End-to-end: concept → Figma → Qt → backend
