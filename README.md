@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://www.behance.net/sandeePPariyar"><img src="https://img.shields.io/badge/Behance-Portfolio-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></a>
+  <a href="https://sandeepariyar.github.io/AutoAura/"><img src="https://img.shields.io/badge/Live_Demo-AutoAura-00B8D4?style=for-the-badge&logo=githubpages&logoColor=white" alt="AutoAura live demo"/></a>
   <a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://img.shields.io/badge/Live_Demo-Junaliikenne-00C853?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live demo"/></a>
   <img src="https://img.shields.io/badge/Finnish-YKI-003580?style=for-the-badge" alt="Finnish YKI"/>
   <img src="https://img.shields.io/badge/Location-Oulu%2C_Finland-0E141B?style=for-the-badge" alt="Oulu, Finland"/>
@@ -41,6 +42,7 @@
 - Shaders, Blender, ZBrush, 2D/3D art
 
 **Interactive apps**
+- [AutoAura](https://sandeepariyar.github.io/AutoAura/) — interactive automotive dashboard built with Qt, C++ and QML, compiled to WebAssembly for the browser
 - Android & web interactive apps, including a 2026 global-warming interactive Android app for the **City of Oulu**
 - VR/AR
 
@@ -54,7 +56,16 @@
   <img src="https://skillicons.dev/icons?i=qt,cpp,python,cs,kotlin,androidstudio,ts,js,html,css,threejs,unity,blender,figma,linux&perline=8" alt="Skills"/>
 </p>
 
-## 🚆 Featured project
+## 🚀 Featured projects
+
+### 🚘 [AutoAura — Interactive Automotive Dashboard](https://github.com/sandeepariyar/AutoAura)
+
+Interactive automotive HMI with animated car visuals, charging and climate controls, status panels and custom graphical effects. Developed using **Qt 6, C++, QML and Qt Design Studio**, and compiled to **WebAssembly** for the browser.
+
+<a href="https://sandeepariyar.github.io/AutoAura/"><img src="https://img.shields.io/badge/▶_Launch_live_demo-00C853?style=flat-square" alt="Launch AutoAura live demo"/></a>
+<a href="https://github.com/sandeepariyar/AutoAura"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github" alt="AutoAura source code"/></a>
+
+### 🚆 Junaliikenne Live
 
 <table>
 <tr>
