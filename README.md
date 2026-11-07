@@ -1,7 +1,7 @@
-<img src="assets/portfolio-banner.svg" alt="Sandeep Pariyar — Qt/QML and C++ developer. Interfaces engineered to feel intuitive." width="100%"/>
+<img src="assets/portfolio-banner.svg" alt="Sandeep Pariyar — software engineering, game development, technical art and interface design." width="100%"/>
 
 # Sandeep Pariyar
-**Qt/QML & C++ developer · Embedded HMI · Interactive 3D & technical art**
+**Software developer · Game developer & technical artist · Interface design**
 
 Oulu, Finland · **Open to work in Finland** · Founder of **Ronixtieto**, a nonprofit
 
@@ -13,9 +13,15 @@ I turn interface concepts into working software—from Figma and visual design t
 - **Delivery:** six MCU applications from design to finish, plus a Qt medical scanning application.
 - **Visual craft:** five shipped games, shader work, 2D/3D art and spatial interaction.
 
+## 🛠 Tech stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=qt,cpp,python,cs,kotlin,androidstudio,ts,js,html,css,threejs,unity,blender,figma,linux&amp;perline=8" alt="Qt, C++, Python, C#, Kotlin, Android Studio, TypeScript, JavaScript, HTML, CSS, Three.js, Unity, Blender, Figma and Linux"/>
+</p>
+
 ## Selected work
 
-**Start with AutoAura and HELIOS for Qt/QML engineering; RONIUM and ProHealth for interactive graphics.** Click a preview to explore. Browser demos require no installation; Qt WebAssembly demos may take a moment to load.
+**Explore software engineering, interactive graphics and interface design through working projects.** Click a preview to explore. Browser demos require no installation; Qt WebAssembly demos may take a moment to load.
 
 <table>
 <tr>
@@ -59,32 +65,16 @@ I turn interface concepts into working software—from Figma and visual design t
 <p><a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor">View source</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sandeepariyar/Nepali-TimePass"><img src="https://raw.githubusercontent.com/sandeepariyar/Nepali-TimePass/main/docs/previews/landscape.webp" alt="Nepali TimePass · Party game — interface preview" width="100%"/></a>
-<h3>Nepali TimePass · Party game</h3>
-<p>Android charades game with team setup, timers and multilingual movie lists.</p>
-<p><strong>Kotlin · Jetpack Compose</strong></p>
-<p><a href="https://github.com/sandeepariyar/Nepali-TimePass">View source</a> · Source project</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <a href="https://github.com/sandeepariyar/The-Melting-Point"><img src="assets/melting-point.svg" alt="The Melting Point · Climate kiosk — project title card" width="100%"/></a>
 <h3>The Melting Point · Climate kiosk</h3>
 <p>Multilingual climate storytelling with 3D terrain and data visualizations.</p>
 <p><strong>React · TypeScript · Three.js</strong></p>
 <p><a href="https://github.com/sandeepariyar/The-Melting-Point">View source</a> · Source project</p>
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/sandeepariyar/turbo-roni"><img src="https://raw.githubusercontent.com/sandeepariyar/turbo-roni/main/app/src/main/res/drawable-nodpi/quest_hero.png" alt="Turbo Roni · Quest timer — project artwork" width="100%"/></a>
-<h3>Turbo Roni · Quest timer</h3>
-<p>Offline Android quest-timer prototype with rewards and sound. Device build remains unverified.</p>
-<p><strong>Kotlin · Jetpack Compose</strong></p>
-<p><a href="https://github.com/sandeepariyar/turbo-roni">View source</a> · Source project</p>
-</td>
 </tr>
 </table>
 
-<sub>Previews use application screenshots or existing project imagery. The Melting Point uses a title card; Turbo Roni uses project artwork. ProHealth, HELIOS and RONIUM are portfolio prototypes with illustrative or simulated states—see each repository for scope and limitations.</sub>
+<sub>Previews use application screenshots or existing project imagery. The Melting Point uses a title card. ProHealth, HELIOS and RONIUM are portfolio prototypes with illustrative or simulated states—see each repository for scope and limitations.</sub>
 
 ## How I work
 
@@ -126,7 +116,7 @@ I turn interface concepts into working software—from Figma and visual design t
 
 ## Opportunities
 
-Interested in **Qt/QML, C++ HMI, interface development and technical art roles in Finland**. Based in Oulu; Finnish YKI certificate.
+Interested in **software development, embedded HMI, game development, interface design and technical art roles in Finland**. Based in Oulu; Finnish YKI certificate.
 
 **Contact:** [sandeep.pariyar@gmail.com](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348)
 
