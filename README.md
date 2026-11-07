@@ -1,4 +1,4 @@
-<img src="assets/portfolio-flow.svg" alt="Sandeep Pariyar — software engineering, game development, technical art and interface design." width="100%"/>
+<img src="assets/banner.svg" alt="Sandeep Pariyar — software developer and technical artist. Animated portfolio banner." width="100%"/>
 
 # Sandeep Pariyar
 **Software developer · Game developer & technical artist · Interface design**
