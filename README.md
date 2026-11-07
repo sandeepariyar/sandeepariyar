@@ -1,30 +1,104 @@
-<p align="center"><img src="assets/banner.svg" alt="Sandeep Pariyar – Qt/QML · C++ · Game Dev & Technical Art · Oulu, Finland" width="100%"/></p>
+<img src="assets/portfolio-banner.svg" alt="Sandeep Pariyar — Qt/QML and C++ developer. Interfaces engineered to feel intuitive." width="100%"/>
 
-<p align="center">
-  <a href="https://github.com/sandeepariyar"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Qt%2FQML+%26+C%2B%2B+Software+Developer;Embedded+Linux+HMI+%26+Middleware;Game+Developer+%26+Technical+Artist;Open+to+work+in+Finland+%F0%9F%87%AB%F0%9F%87%AE" alt="Typing SVG"/></a>
-</p>
+# Sandeep Pariyar
+**Qt/QML & C++ developer · Embedded HMI · Interactive 3D & technical art**
 
-<p align="center">
-  <a href="https://www.behance.net/sandeePPariyar"><img src="https://img.shields.io/badge/Behance-Portfolio-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></a>
-  <a href="https://sandeepariyar.github.io/AutoAura/"><img src="https://img.shields.io/badge/Live_Demo-AutoAura-00B8D4?style=for-the-badge&logo=githubpages&logoColor=white" alt="AutoAura live demo"/></a>
-  <a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://img.shields.io/badge/Live_Demo-Junaliikenne-00C853?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live demo"/></a>
-  <img src="https://img.shields.io/badge/Finnish-YKI-003580?style=for-the-badge" alt="Finnish YKI"/>
-  <img src="https://img.shields.io/badge/Location-Oulu%2C_Finland-0E141B?style=for-the-badge" alt="Oulu, Finland"/>
-</p>
+Oulu, Finland · **Open to work in Finland** · Founder of **Ronixtieto**, a nonprofit
 
-## 👋 Hi, I'm Sandeep
+[Email](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348) · [Design portfolio on Behance](https://www.behance.net/sandeePPariyar)
 
-**Qt/QML & C++ software developer · Game developer & technical artist** — ~10 years in software and ~10 years in game development. **Open to work in Finland.**
+I turn interface concepts into working software—from Figma and visual design to Qt/QML, C++ and interactive graphics. My background combines software engineering with game development and technical art.
 
-- 🧩 **Qt/QML** is my strongest skill — C++ middleware and **embedded Linux HMI**
-- 🔧 Designed and delivered **6 MCU applications** from design to finish
-- 🏥 Built a **medical scanning application** with Qt
-- 🎨 End-to-end product work: **concept → Figma → Qt → backend**
-- 🎮 Game / technical artist: shaders, Blender, ZBrush, 2D/3D art — **5 games** shipped
-- 📱 Android & web interactive apps, VR/AR
+- **Software:** around 10 years, including The Qt Company, Siili Solutions and CyberLightning.
+- **Delivery:** six MCU applications from design to finish, plus a Qt medical scanning application.
+- **Visual craft:** five shipped games, shader work, 2D/3D art and spatial interaction.
+
+## Selected work
+
+**Start with AutoAura and HELIOS for Qt/QML engineering; RONIUM and ProHealth for interactive graphics.** Click a preview to explore. Browser demos require no installation; Qt WebAssembly demos may take a moment to load.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://sandeepariyar.github.io/AutoAura/"><img src="assets/autoaura.jpg" alt="Automotive HMI — interface preview" width="100%"/></a>
+<h3>Automotive HMI</h3>
+<p>Animated vehicle interface with charging, climate and door controls.</p>
+<p><strong>Qt 6 · QML · C++ · WebAssembly</strong></p>
+<p><a href="https://sandeepariyar.github.io/AutoAura/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/AutoAura">View source</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://sandeepariyar.github.io/HELIOS-MCU/"><img src="https://raw.githubusercontent.com/sandeepariyar/HELIOS-MCU/main/references/main.png" alt="HELIOS · Energy management cockpit — interface preview" width="100%"/></a>
+<h3>HELIOS · Energy management cockpit</h3>
+<p>Interactive energy simulation, battery views and optimized UI assets.</p>
+<p><strong>Qt Quick · C++ · Figma</strong></p>
+<p><a href="https://sandeepariyar.github.io/HELIOS-MCU/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/HELIOS-MCU">View source</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://sandeepariyar.github.io/ronium-earth-observation/"><img src="https://raw.githubusercontent.com/sandeepariyar/ronium-earth-observation/main/docs/ronium-preview.jpg" alt="RONIUM · Earth observation — interface preview" width="100%"/></a>
+<h3>RONIUM · Earth observation</h3>
+<p>Rotatable globe, scroll choreography and a public-imagery mission console.</p>
+<p><strong>React · Three.js · WebGL</strong></p>
+<p><a href="https://sandeepariyar.github.io/ronium-earth-observation/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/ronium-earth-observation">View source</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://sandeepariyar.github.io/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform/"><img src="https://raw.githubusercontent.com/sandeepariyar/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform/main/docs/screenshots/prohealth-dark.webp" alt="ProHealth · 3D anatomy explorer — interface preview" width="100%"/></a>
+<h3>ProHealth · 3D anatomy explorer</h3>
+<p>Spatial inspection, anatomy layers and an educational visualization workflow.</p>
+<p><strong>React · TypeScript · Three.js</strong></p>
+<p><a href="https://sandeepariyar.github.io/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform">View source</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://raw.githubusercontent.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor/main/docs/screenshot.png" alt="Junaliikenne · Rail traffic monitor — interface preview" width="100%"/></a>
+<h3>Junaliikenne · Rail traffic monitor</h3>
+<p>Rail dashboard with demo scenarios, Digitraffic live mode and accessibility features.</p>
+<p><strong>React · Lit · TypeScript · Three.js</strong></p>
+<p><a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor">View source</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/sandeepariyar/Nepali-TimePass"><img src="https://raw.githubusercontent.com/sandeepariyar/Nepali-TimePass/main/docs/previews/landscape.webp" alt="Nepali TimePass · Party game — interface preview" width="100%"/></a>
+<h3>Nepali TimePass · Party game</h3>
+<p>Android charades game with team setup, timers and multilingual movie lists.</p>
+<p><strong>Kotlin · Jetpack Compose</strong></p>
+<p><a href="https://github.com/sandeepariyar/Nepali-TimePass">View source</a> · Source project</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/sandeepariyar/The-Melting-Point"><img src="assets/melting-point.svg" alt="The Melting Point · Climate kiosk — project title card" width="100%"/></a>
+<h3>The Melting Point · Climate kiosk</h3>
+<p>Multilingual climate storytelling with 3D terrain and data visualizations.</p>
+<p><strong>React · TypeScript · Three.js</strong></p>
+<p><a href="https://github.com/sandeepariyar/The-Melting-Point">View source</a> · Source project</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/sandeepariyar/turbo-roni"><img src="https://raw.githubusercontent.com/sandeepariyar/turbo-roni/main/app/src/main/res/drawable-nodpi/quest_hero.png" alt="Turbo Roni · Quest timer — project artwork" width="100%"/></a>
+<h3>Turbo Roni · Quest timer</h3>
+<p>Offline Android quest-timer prototype with rewards and sound. Device build remains unverified.</p>
+<p><strong>Kotlin · Jetpack Compose</strong></p>
+<p><a href="https://github.com/sandeepariyar/turbo-roni">View source</a> · Source project</p>
+</td>
+</tr>
+</table>
+
+<sub>Previews use application screenshots or existing project imagery. The Melting Point uses a title card; Turbo Roni uses project artwork. ProHealth, HELIOS and RONIUM are portfolio prototypes with illustrative or simulated states—see each repository for scope and limitations.</sub>
+
+## How I work
+
+**Concept → Figma → implementation → interaction polish.** I connect visual design with application behavior, with particular interest in embedded interfaces, graphics performance and clear human-machine interaction.
+
+| Focus | Tools and experience |
+| --- | --- |
+| HMI & application engineering | Qt, QML, C++, embedded Linux, CMake |
+| Interactive web & graphics | React, TypeScript, Three.js, WebGL, shaders |
+| Design & technical art | Figma, Blender, ZBrush, Unity, 2D/3D art |
+| Mobile | Kotlin, Jetpack Compose, Android |
 
 <details>
-<summary><b>📖 About me</b></summary>
+<summary><b>Experience and background</b></summary>
 <br/>
 
 **Software (~10 years)**
@@ -50,38 +124,10 @@
 
 </details>
 
-## 🛠 Tech stack
+## Opportunities
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=qt,cpp,python,cs,kotlin,androidstudio,ts,js,html,css,threejs,unity,blender,figma,linux&perline=8" alt="Skills"/>
-</p>
+Interested in **Qt/QML, C++ HMI, interface development and technical art roles in Finland**. Based in Oulu; Finnish YKI certificate.
 
-## 🚀 Featured projects
+**Contact:** [sandeep.pariyar@gmail.com](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348)
 
-### 🚘 [AutoAura — Interactive Automotive Dashboard](https://github.com/sandeepariyar/AutoAura)
-
-Interactive automotive HMI with animated car visuals, charging and climate controls, status panels and custom graphical effects. Developed using **Qt 6, C++, QML and Qt Design Studio**, and compiled to **WebAssembly** for the browser.
-
-<a href="https://sandeepariyar.github.io/AutoAura/"><img src="https://img.shields.io/badge/▶_Launch_live_demo-00C853?style=flat-square" alt="Launch AutoAura live demo"/></a>
-<a href="https://github.com/sandeepariyar/AutoAura"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github" alt="AutoAura source code"/></a>
-
-### 🚆 Junaliikenne Live
-
-<table>
-<tr>
-<td width="55%">
-<a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://raw.githubusercontent.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor/main/docs/screenshot.png" alt="Junaliikenne Live screenshot" width="100%"/></a>
-</td>
-<td>
-
-### [Junaliikenne Live – Rail Traffic Monitor](https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor)
-Accessible rail operations dashboard with **Lit Web Components**, real **Digitraffic** data and a **Three.js** low-poly 3D map.
-
-<a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://img.shields.io/badge/▶_Live_demo-00C853?style=flat-square" alt="Live demo"/></a>
-<a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github" alt="Source"/></a>
-
-</td>
-</tr>
-</table>
-
-<p align="center"><a href="https://www.behance.net/sandeePPariyar">Behance</a> · Oulu, Finland 🇫🇮</p>
+[Explore my design portfolio](https://www.behance.net/sandeePPariyar) · [Browse all repositories](https://github.com/sandeepariyar?tab=repositories)
