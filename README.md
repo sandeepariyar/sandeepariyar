@@ -21,7 +21,7 @@ I turn interface concepts into working software—from Figma and visual design t
 <tr>
 <td width="50%" valign="top">
 <a href="https://sandeepariyar.github.io/AutoAura/"><img src="assets/autoaura.jpg" alt="Automotive HMI — interface preview" width="100%"/></a>
-<h3>Automotive HMI</h3>
+<h3>AutoAura · Automotive HMI</h3>
 <p>Animated vehicle interface with charging, climate and door controls.</p>
 <p><strong>Qt 6 · QML · C++ · WebAssembly</strong></p>
 <p><a href="https://sandeepariyar.github.io/AutoAura/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/AutoAura">View source</a></p>
