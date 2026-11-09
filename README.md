@@ -1,13 +1,13 @@
-<img src="assets/banner.svg" alt="Sandeep Pariyar — software developer and technical artist. Animated portfolio banner." width="100%"/>
+<img src="assets/banner.svg" alt="Sandeep Pariyar — animated portfolio banner." width="100%"/>
 
 # Sandeep Pariyar
-**Software developer · Game developer & technical artist · Interface design**
+**Design Engineer · HMI & Design Systems · Frontend & Qt/QML**
 
-Oulu, Finland · **Open to work in Finland** · Founder of **Ronixtieto**, a nonprofit
+Oulu, Finland · open to relocating to Helsinki immediately · Founder of **Ronixtieto**, a nonprofit
 
 [Email](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348) · [Design portfolio on Behance](https://www.behance.net/sandeePPariyar)
 
-I turn interface concepts into working software—from Figma and visual design to Qt/QML, C++ and interactive graphics. My background combines software engineering with game development and technical art.
+Design engineer who takes interfaces from concept and Figma to production code: Qt/QML and C++ for embedded HMI, and React, TypeScript and Lit Web Components for the web.
 
 - **Software:** around 10 years, including The Qt Company, Siili Solutions and CyberLightning.
 - **Delivery:** six MCU applications from design to finish, plus a Qt medical scanning application.
@@ -25,19 +25,28 @@ I turn interface concepts into working software—from Figma and visual design t
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://sandeepariyar.github.io/AutoAura/"><img src="assets/autoaura.jpg" alt="Automotive HMI — interface preview" width="100%"/></a>
-<h3>AutoAura · Automotive HMI</h3>
-<p>Animated vehicle interface with charging, climate and door controls.</p>
-<p><strong>Qt 6 · QML · C++ · WebAssembly</strong></p>
-<p><a href="https://sandeepariyar.github.io/AutoAura/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/AutoAura">View source</a></p>
+<td colspan="2" valign="top">
+<a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://raw.githubusercontent.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor/main/docs/screenshot.png" alt="Junaliikenne · Rail traffic monitor — interface preview" width="100%"/></a>
+<h3>Junaliikenne · Rail traffic operator dashboard</h3>
+<p>Lit Web Components used from React via @lit/react and from plain HTML, explicit live/stale/offline data states from Digitraffic, and axe-core accessibility tests in CI.</p>
+<p><strong>Lit · React · TypeScript · Three.js · Playwright</strong></p>
+<p><a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor#design-engineering-case-study">Case study</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor">View source</a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://sandeepariyar.github.io/HELIOS-MCU/"><img src="https://raw.githubusercontent.com/sandeepariyar/HELIOS-MCU/main/references/main.png" alt="HELIOS · Energy management cockpit — interface preview" width="100%"/></a>
 <h3>HELIOS · Energy management cockpit</h3>
 <p>Interactive energy simulation, battery views and optimized UI assets.</p>
 <p><strong>Qt Quick · C++ · Figma</strong></p>
 <p><a href="https://sandeepariyar.github.io/HELIOS-MCU/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/HELIOS-MCU">View source</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://sandeepariyar.github.io/AutoAura/"><img src="assets/autoaura.jpg" alt="Automotive HMI — interface preview" width="100%"/></a>
+<h3>AutoAura · Automotive HMI</h3>
+<p>Animated vehicle interface with charging, climate and door controls.</p>
+<p><strong>Qt 6 · QML · C++ · WebAssembly</strong></p>
+<p><a href="https://sandeepariyar.github.io/AutoAura/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/AutoAura">View source</a></p>
 </td>
 </tr>
 <tr>
@@ -56,25 +65,9 @@ I turn interface concepts into working software—from Figma and visual design t
 <p><a href="https://sandeepariyar.github.io/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform">View source</a></p>
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://raw.githubusercontent.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor/main/docs/screenshot.png" alt="Junaliikenne · Rail traffic monitor — interface preview" width="100%"/></a>
-<h3>Junaliikenne · Rail traffic monitor</h3>
-<p>Rail dashboard with demo scenarios, Digitraffic live mode and accessibility features.</p>
-<p><strong>React · Lit · TypeScript · Three.js</strong></p>
-<p><a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor">View source</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/sandeepariyar/The-Melting-Point"><img src="assets/melting-point.svg" alt="The Melting Point · Climate kiosk — project title card" width="100%"/></a>
-<h3>The Melting Point · Climate kiosk</h3>
-<p>Multilingual climate storytelling with 3D terrain and data visualizations.</p>
-<p><strong>React · TypeScript · Three.js</strong></p>
-<p><a href="https://github.com/sandeepariyar/The-Melting-Point">View source</a> · Source project</p>
-</td>
-</tr>
 </table>
 
-<sub>Previews use application screenshots or existing project imagery. The Melting Point uses a title card. ProHealth, HELIOS and RONIUM are portfolio prototypes with illustrative or simulated states—see each repository for scope and limitations.</sub>
+<sub>Previews use application screenshots or existing project imagery. These are portfolio prototypes; simulated or illustrative states are labelled. See each repository for scope and limitations. More projects: <a href="https://github.com/sandeepariyar?tab=repositories">all repositories</a>.</sub>
 
 ## How I work
 
@@ -116,7 +109,7 @@ I turn interface concepts into working software—from Figma and visual design t
 
 ## Opportunities
 
-Interested in **software development, embedded HMI, game development, interface design and technical art roles in Finland**. Based in Oulu; Finnish YKI certificate.
+Interested in **design engineering, HMI, design-system and frontend roles, as well as Qt/QML and technical art, in Finland**. Oulu, Finland · open to relocating to Helsinki immediately. Finnish YKI certificate.
 
 **Contact:** [sandeep.pariyar@gmail.com](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348)
 
