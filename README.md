@@ -1,28 +1,42 @@
 # THREAD — From Shelf to Source
 
-**Interactive supply-chain planning UX portfolio prototype**
+**Interactive supply-chain planning UX prototype** · React · TypeScript · Vite
 
-THREAD is an independent design-engineering demonstration, not a RELEX product or an operational planning system. All products, locations, financial impacts, and simulation outputs are fictional.
+Independent design-engineering portfolio project by Sandeep Pariyar. **Not an official RELEX product.** All catalog, inventory, revenue and facility information is synthetic. The model is illustrative and not an operational forecasting system.
 
-## Explore
+## Open the interactive demo
 
-Open **[index.html](./index.html)** locally in a browser. This standalone build is self-contained and does not require an npm installation. It contains the compiled React UI and its synthetic scenario model.
+Download **[index.html](./index.html)** and open it in Chrome or Edge. It is a single-file, self-contained offline React demonstration.
 
-### Prototype features
+## Work with the complete source
 
-- Product Explorer with a synthetic 1,284-SKU catalog, search and status filtering
-- Product/warehouse/factory network inspection with shared selection
-- Scenario controls for demand uplift, production capacity, transfers, and transport assumptions
-- Eight-week deterministic inventory simulation, before/after comparisons, and explicit draft-versus-run states
-- Portfolio risk view and synthetic CSV export
-- Keyboard-friendly controls and reduced-motion styling
+The complete React + TypeScript + Vite project is in **[app/](./app/)**.
 
-## Limitations and status
+```bash
+cd app
+npm install
+npm run dev
+npm test
+npm run build
+```
 
-This **branch is a reviewable standalone web-demo snapshot**. The complete **React + TypeScript + Vite source project** remains separate and is **not yet included in this branch**. The synthetic model is illustrative, not a validated optimizer or financial forecast. No backend, actual business telemetry, production integrations, or live plan publishing are provided.
+The project includes:
+- [Reusable UI components](./app/src/components.tsx) and [design tokens/styles](./app/src/styles.css)
+- [Product selection, network, scenario and portfolio screens](./app/src/App.tsx)
+- [Deterministic synthetic simulation](./app/src/model.ts)
+- [Case study](./app/docs/CASE_STUDY.md) and [QML migration handoff](./app/docs/QML_HANDOFF.md)
+- [Offline preview](./app/preview/index.html) and automated model/UI-tree checks
 
-Planned improvements: product-specific network dependencies, shared-capacity portfolio logic, longer product lists/pagination, better global search and inspector responsiveness.
+## Current scope and UX opportunities
 
-## Technology and credits
+Four connected workspaces: product discovery, supply lineage, scenario simulation and portfolio exposure. Scenario edits remain separate from the last simulated result; no live business state can be changed.
 
-Original THREAD concept and application for portfolio exploration by Sandeep Pariyar. React runtime is distributed under the MIT license (Facebook, Inc. and contributors). This project is independent of RELEX Solutions and not affiliated with or endorsed by it.
+See **[UX audit and next improvements](./docs/UX_AUDIT.md)** for known problems and design priorities.
+
+## About the data
+
+1,284 products and all warehouses, factories, scenario effects and revenue estimates are fictional. Forecasting logic is a small, deterministic educational model, not a RELEX or third-party business algorithm. This repository is unaffiliated with RELEX Solutions.
+
+## Credits
+
+Concept and implementation by Sandeep Pariyar, using independent ideas developed through Google Stitch visual exploration. Third-party React/ReactDOM license notices are retained in the offline preview and [notices](./THIRD_PARTY_NOTICES.md).
