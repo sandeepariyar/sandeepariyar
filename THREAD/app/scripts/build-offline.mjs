@@ -1,0 +1,18 @@
+import {spawnSync} from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const args=['--jsx','react','--module','none','--target','es2020','--lib','dom,es2020','--skipLibCheck','--noEmitOnError','false','--outDir','preview','src/globals.d.ts','src/model.ts','src/components.tsx','src/App.tsx'];
+const local=path.join(root,'node_modules','typescript','bin','tsc');
+const result=fs.existsSync(local)?spawnSync(process.execPath,[local,...args],{cwd:root,stdio:'inherit'}):spawnSync('tsc',args,{cwd:root,stdio:'inherit',shell:process.platform==='win32'});
+if(result.status!==0)throw new Error('TypeScript compilation failed: '+result.status);
+const preview=path.join(root,'preview');
+fs.copyFileSync(path.join(preview,'App.js'),path.join(preview,'app.js'));
+fs.copyFileSync(path.join(root,'src/styles.css'),path.join(preview,'styles.css'));
+let css=fs.readFileSync(path.join(preview,'styles.css'),'utf8').replace(/^@import url\([^\n]+\);\s*/,'');
+let html='<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>THREAD — Offline Interactive Prototype</title><style>'+css+'</style></head><body><div id="root"></div>';
+for(const file of ['vendor/react.production.min.js','vendor/react-dom.production.min.js','model.js','components.js','app.js'])html+='<script>\n'+fs.readFileSync(path.join(preview,file),'utf8').replaceAll('</script>','<\\/script>')+'\n</script>';
+html+='<script>ReactDOM.render(React.createElement(window.ThreadApp),document.getElementById("root"));</script></body></html>';
+fs.writeFileSync(path.join(root,'THREAD_Interactive_Standalone.html'),html);
+console.log('Offline preview and standalone HTML rebuilt from TSX.');
