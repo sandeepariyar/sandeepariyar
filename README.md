@@ -27,7 +27,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <tr>
 <td width="50%" valign="top">
 <h3>Revontuli · EV rear-seat HMI</h3>
-<a href="https://sandeepariyar.github.io/revontuli-embedded-ui-demo/compare/"><img src="https://raw.githubusercontent.com/sandeepariyar/revontuli-embedded-ui-demo/main/docs/comparison-seat.png" alt="Revontuli original web design and LVGL seat controls side by side" width="100%"/></a>
+<a href="https://sandeepariyar.github.io/revontuli-embedded-ui-demo/compare/"><img src="https://raw.githubusercontent.com/sandeepariyar/revontuli-embedded-ui-demo/main/docs/comparison-home.png" alt="Revontuli Home in the original web design and LVGL side by side" width="100%"/></a>
 <p>Five interactive cabin screens, from climate and seat controls to lighting and media. Compare the original design with LVGL rendering and a C++ state model.</p>
 <p><strong>LVGL · C++ · WebAssembly</strong></p>
 <p><a href="https://sandeepariyar.github.io/revontuli-embedded-ui-demo/compare/"><strong>▶ Try the live demo</strong></a> · <a href="https://github.com/sandeepariyar/revontuli-embedded-ui-demo">Engineering notes &amp; source</a></p>
