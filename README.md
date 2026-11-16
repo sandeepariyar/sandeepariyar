@@ -1,22 +1,27 @@
-<img src="assets/banner.svg" alt="Sandeep Pariyar portfolio banner" width="100%"/>
+<img src="assets/banner.svg" alt="Sandeep Pariyar — animated portfolio banner." width="100%"/>
 
 # Sandeep Pariyar
+**Design Engineer · HMI & Design Systems · Frontend & Qt/QML**
 
-**Design Engineer · Embedded HMI · Interactive Frontend**
+Oulu, Finland · open to relocating to Helsinki immediately · Founder of **Ronixtieto**, a nonprofit
+
+[Email](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348) · [Design portfolio on Behance](https://www.behance.net/sandeePPariyar)
 
 Design engineer who takes interfaces from concept and Figma to production code: Qt/QML and C++ for embedded HMI, and React, TypeScript and Lit Web Components for the web.
 
-**Oulu, Finland** · Open to roles in Finland and available to relocate to Helsinki
+- **Software:** around 10 years, including The Qt Company, Siili Solutions and CyberLightning.
+- **Delivery:** six MCU applications from design to finish, plus a Qt medical scanning application.
+- **Visual craft:** five shipped games, shader work, 2D/3D art and spatial interaction.
 
-[Email me](mailto:sandeep.pariyar@gmail.com) · [Call +358 40 197 7348](tel:+358401977348) · [Behance portfolio](https://www.behance.net/sandeePPariyar)
+## 🛠 Tech stack
 
-- **Embedded and application delivery:** Six MCU applications from design through implementation, plus a Qt medical scanning application.
-- **Professional experience:** Around ten years in software, including The Qt Company, Siili Solutions, and CyberLightning.
-- **Visual and technical art:** Five shipped games, with work across shaders, 2D and 3D assets, and interactive graphics.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=qt,cpp,python,cs,kotlin,androidstudio,ts,js,html,css,threejs,unity,blender,figma,linux&amp;perline=8" alt="Qt, C++, Python, C#, Kotlin, Android Studio, TypeScript, JavaScript, HTML, CSS, Three.js, Unity, Blender, Figma and Linux"/>
+</p>
 
-## Featured projects
+## Selected work
 
-These browser demos show how I translate interface design into working software. Start with either side-by-side comparison.
+**Explore software engineering, interactive graphics and interface design through working projects.** Click a preview to explore. Browser demos require no installation; Qt WebAssembly demos may take a moment to load.
 
 <table>
 <tr>
@@ -35,13 +40,6 @@ These browser demos show how I translate interface design into working software.
 <p><a href="https://sandeepariyar.github.io/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-/#live"><strong>▶ Try the live demo</strong></a> · <a href="https://github.com/sandeepariyar/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-">Engineering notes &amp; source</a></p>
 </td>
 </tr>
-</table>
-
-Both demos use simulated equipment. Their memory budgets document the path to embedded deployment.
-
-## More selected work
-
-<table>
 <tr>
 <td colspan="2" valign="top">
 <a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="https://raw.githubusercontent.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor/main/docs/screenshot.png" alt="Junaliikenne · Rail traffic monitor — interface preview" width="100%"/></a>
@@ -85,23 +83,50 @@ Both demos use simulated equipment. Their memory budgets document the path to em
 </tr>
 </table>
 
-## Skills and background
+<sub>Previews use application screenshots or existing project imagery. These are portfolio prototypes; simulated or illustrative states are labelled. See each repository for scope and limitations. More projects: <a href="https://github.com/sandeepariyar?tab=repositories">all repositories</a>.</sub>
+
+## How I work
+
+**Concept → Figma → implementation → interaction polish.** I connect visual design with application behavior, with particular interest in embedded interfaces, graphics performance and clear human-machine interaction.
 
 | Focus | Tools and experience |
 | --- | --- |
-| Embedded HMI | Qt Quick, QML, C++, LVGL, embedded Linux, CMake |
-| Frontend and design systems | React, TypeScript, Lit, accessible components, Figma |
-| Real-time graphics | Three.js, WebGL, shaders, Unity, Blender, ZBrush |
-| Android | Kotlin, Jetpack Compose |
+| HMI & application engineering | Qt, QML, C++, embedded Linux, CMake |
+| Interactive web & graphics | React, TypeScript, Three.js, WebGL, shaders |
+| Design & technical art | Figma, Blender, ZBrush, Unity, 2D/3D art |
+| Mobile | Kotlin, Jetpack Compose, Android |
 
 <details>
-<summary><strong>Additional experience</strong></summary>
+<summary><b>Experience and background</b></summary>
+<br/>
 
-- Technical art and game development with Fingersoft, Empires Games, Namida Games, and Veikkaus. Projects include Paradise Tycoon.
-- Interactive Android and web projects, including a 2026 climate education app for the City of Oulu.
-- Founder of Ronixtieto, a nonprofit.
-- Finnish language proficiency certified through YKI.
+**Software (~10 years)**
+- Almost 5 years at **The Qt Company**
+- 3 years at **Siili Solutions**
+- 2 years at CyberLightning IT Company
+- Qt/QML, C++ middleware, embedded Linux HMI, 6 MCU applications from design to finish
+- Medical scanning application built with Qt
+- End-to-end: concept → Figma → Qt → backend
+
+**Game development (~10 years)**
+- Fingersoft, Empires Games, Namida Games, Veikkaus
+- 5 games; game artist & technical artist
+- Blockchain game **Paradise Tycoon**
+- Shaders, Blender, ZBrush, 2D/3D art
+
+**Interactive apps**
+- [AutoAura](https://sandeepariyar.github.io/AutoAura/) — interactive automotive dashboard built with Qt, C++ and QML, compiled to WebAssembly for the browser
+- Android & web interactive apps, including a 2026 global-warming interactive Android app for the **City of Oulu**
+- VR/AR
+
+**Languages:** Finnish (YKI certificate)
 
 </details>
 
-[Get in touch](mailto:sandeep.pariyar@gmail.com) · [Browse all repositories](https://github.com/sandeepariyar?tab=repositories)
+## Opportunities
+
+Interested in **design engineering, HMI, design-system and frontend roles, as well as Qt/QML and technical art, in Finland**. Oulu, Finland · open to relocating to Helsinki immediately. Finnish YKI certificate.
+
+**Contact:** [sandeep.pariyar@gmail.com](mailto:sandeep.pariyar@gmail.com) · [+358 40 197 7348](tel:+358401977348)
+
+[Explore my design portfolio](https://www.behance.net/sandeePPariyar) · [Browse all repositories](https://github.com/sandeepariyar?tab=repositories)
