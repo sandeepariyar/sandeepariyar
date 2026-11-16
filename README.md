@@ -4,7 +4,7 @@
 
 **Design Engineer · Embedded HMI · Interactive Frontend**
 
-I design interfaces and build the software behind them. My work spans Qt/QML and C++ for embedded touchscreens, accessible web components, and real-time 3D.
+Design engineer who takes interfaces from concept and Figma to production code: Qt/QML and C++ for embedded HMI, and React, TypeScript and Lit Web Components for the web.
 
 **Oulu, Finland** · Open to roles in Finland and available to relocate to Helsinki
 
