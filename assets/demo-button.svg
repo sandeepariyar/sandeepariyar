@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204" height="40" viewBox="0 0 204 40" role="img" aria-label="Launch live demo">
+<rect width="204" height="40" rx="5" fill="#d8fb68"/>
+<polygon points="16,13 16,27 27,20" fill="#132012"/>
+<text x="38" y="25" font-size="12" font-family="Arial,Helvetica,sans-serif" font-weight="800" letter-spacing=".6" fill="#132012">LAUNCH LIVE DEMO</text>
+<path d="M181 14h10v10m0-10-13 13" fill="none" stroke="#132012" stroke-width="2" stroke-linejoin="round"/>
+</svg>
