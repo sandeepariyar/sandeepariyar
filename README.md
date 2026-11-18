@@ -1,4 +1,4 @@
-<img src="assets/profile-cover.svg" alt="Sandeep Pariyar — Senior Design Engineer profile cover." width="100%"/>
+<img src="assets/banner.svg" alt="Sandeep Pariyar — animated portfolio banner." width="100%"/>
 
 # Sandeep Pariyar
 **Design Engineer · HMI & Design Systems · Frontend & Qt/QML**
