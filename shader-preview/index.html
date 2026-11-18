@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sandeep Pariyar — Interactive Shader Banner Concept</title>
+  <style>
+    :root{color-scheme:dark}
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:#050d13;font-family:Arial,Helvetica,sans-serif;color:#bfd8e7}
+    body{display:grid;place-items:center;padding:20px}
+    .presentation{width:min(1200px,100%)}
+    .banner{position:relative;aspect-ratio:4/1;width:100%;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 69% 45%,#1a3850 0%,#0b1a28 45%,#071018 100%);border:1px solid #335e6c;box-shadow:0 25px 90px #0008;touch-action:pan-y}
+    #shader{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:.95}
+    #labels{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+    #labels .main-title{font-family:'Arial Black',Impact,Arial,sans-serif;font-weight:900;letter-spacing:7.5px}
+    #labels .small{font-family:'Courier New',monospace;letter-spacing:1.4px}
+    #labels .sub{font-family:Arial,sans-serif;font-weight:300;letter-spacing:3px}
+    .corner{fill:none;stroke:#5fe3ff;stroke-width:1.4;opacity:.85}
+    .scanline{position:absolute;left:0;right:0;top:-10px;height:100%;pointer-events:none;opacity:.2;background:repeating-linear-gradient(0deg,transparent 0,transparent 4px,#54e4ff1b 5px,transparent 6px)}
+    .orbit-a{transform-origin:1010px 128px;animation:orbit 29s linear infinite}.orbit-b{transform-origin:1010px 128px;animation:orbit-reverse 19s linear infinite}
+    @keyframes orbit{to{transform:rotate(360deg)}}@keyframes orbit-reverse{to{transform:rotate(-360deg)}}
+    .info{display:flex;justify-content:space-between;gap:18px;margin-top:13px;color:#89aabc;font:11px/1.6 'Courier New',monospace}
+    .info strong{color:#5fe3ff}
+    @media(max-width:650px){body{padding:10px}.info{font-size:9px;flex-wrap:wrap}.banner{border-width:1px}}
+    @media(prefers-reduced-motion:reduce){.orbit-a,.orbit-b{animation:none}}
+  </style>
+</head>
+<body>
+  <main class="presentation">
+    <section class="banner" id="banner" aria-label="Interactive shader concept for Sandeep Pariyar. Move the pointer to influence the cyan and magenta lighting.">
+      <canvas id="shader" aria-hidden="true"></canvas>
+      <div class="scanline" aria-hidden="true"></div>
+      <svg id="labels" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+        <title id="title">SANDEEP PARIYAR</title>
+        <desc id="desc">Software Developer · Technical Artist. QT/QML · C++ · EMBEDDED HMI · GAME DEV · SHADERS · 3D. Status: Open to Work.</desc>
+        <defs>
+          <linearGradient id="title-ink" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#00e5ff"/><stop offset=".47" stop-color="#e0fdff"/><stop offset="1" stop-color="#64cffe"/></linearGradient>
+          <linearGradient id="orbit-ink" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#ff2e97"/></linearGradient>
+          <filter id="softglow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+        </defs>
+        <g class="corner"><path d="M18 40V18h22M1160 18h22v22M18 260v22h22M1160 282h22v-22"/></g>
+        <path d="M300 22H900" fill="none" stroke="#5fe3ff" stroke-opacity=".45" stroke-width=".8" stroke-dasharray="2 18"/>
+        <text class="small" x="40" y="36" font-size="11" fill="#7fdbff">SYS://QT.QML  C++  GLSL</text>
+        <text class="small" x="1160" y="36" font-size="11" fill="#7fdbff" text-anchor="end">LAT 65.01 N / LON 25.47 E — OULU</text>
+        <g transform="translate(70 0)">
+          <text class="main-title" x="0" y="132" font-size="54" fill="#00e5ff" opacity=".55" filter="url(#softglow)">SANDEEP PARIYAR</text>
+          <text class="main-title" x="0" y="132" font-size="54" fill="url(#title-ink)">SANDEEP PARIYAR</text>
+          <rect x="0" y="150" width="56" height="2" fill="#00e5ff"/><rect x="62" y="150" width="14" height="2" fill="#ff2e97"/>
+          <text class="sub" x="92" y="157" font-size="24" fill="#dcecf6">Software Developer · Technical Artist</text>
+          <text class="small" x="0" y="186" font-size="11" letter-spacing="2" fill="#9dbad4">QT/QML · C++ · EMBEDDED HMI · GAME DEV · SHADERS · 3D</text>
+        </g>
+        <g class="orbit-a" fill="none" stroke="url(#orbit-ink)"><ellipse cx="1010" cy="128" rx="101" ry="30" transform="rotate(-14 1010 128)" stroke-width="1.2" opacity=".75"/><ellipse cx="1010" cy="128" rx="76" ry="75" stroke-width=".8" stroke-dasharray="4 8" opacity=".55"/></g>
+        <g class="orbit-b" fill="none" stroke="#00e5ff"><ellipse cx="1010" cy="128" rx="57" ry="66" stroke-width=".9" opacity=".6"/><ellipse cx="1010" cy="128" rx="94" ry="22" transform="rotate(36 1010 128)" stroke-width="1" stroke-dasharray="3 9" opacity=".65"/></g>
+        <circle cx="1010" cy="128" r="34" fill="#00e5ff" opacity=".12" filter="url(#softglow)"/>
+        <circle cx="1010" cy="128" r="3" fill="#00e5ff"/>
+        <text class="small" x="1010" y="214" text-anchor="middle" font-size="11" fill="#7fdbff">◉ OULU 65.01°N</text>
+        <circle cx="44" cy="268" r="4" fill="#00ff9c"/>
+        <text class="small" x="56" y="272" font-size="11" fill="#00ff9c">STATUS: OPEN TO WORK</text>
+        <text class="small" x="1160" y="272" text-anchor="end" font-size="11" fill="#7fdbff" opacity=".75">SOFTWARE · GAMES · 3D — FINLAND</text>
+      </svg>
+    </section>
+    <div class="info"><span><strong>SHADER CONCEPT / 01</strong> · Original banner wording preserved</span><span>MOVE POINTER TO DISTORT LIGHT · WEBGL / GLSL</span></div>
+  </main>
+  <script>
+    (() => {
+      'use strict';
+      const canvas=document.getElementById('shader'),banner=document.getElementById('banner');
+      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const gl=canvas.getContext('webgl',{alpha:true,antialias:false,powerPreference:'low-power',preserveDrawingBuffer:true});
+      if(!gl)return;
+      const vertex='attribute vec2 a;void main(){gl_Position=vec4(a,0.,1.);}';
+      const fragment=`precision highp float;
+      uniform vec2 u_res;uniform vec2 u_mouse;uniform float u_time;
+      float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453123);}
+      float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+vec2(1.,1.)),f.x),f.y);}
+      float fbm(vec2 p){float v=0.,a=.5;for(int i=0;i<5;i++){v+=a*noise(p);p=mat2(1.6,-1.2,1.2,1.6)*p;a*=.5;}return v;}
+      void main(){
+        vec2 uv=gl_FragCoord.xy/u_res.xy;
+        vec2 p=(uv-.5)*vec2(u_res.x/u_res.y,1.);
+        vec2 m=(u_mouse-.5)*vec2(u_res.x/u_res.y,1.);
+        float t=u_time*.13;
+        vec2 q=p*.83+vec2(fbm(p*1.8+vec2(t,0.)),fbm(p*2.3-vec2(0.,t)))*.18;
+        float turbulence=fbm(q*4.2+vec2(t,-t*.7));
+        float flow=sin((q.y+turbulence*.25)*14.-t*4.5)*.5+.5;
+        float pointer=exp(-length(p-m)*2.2);
+        float sheet=exp(-pow((q.y+.13+.1*sin(q.x*2.+t*2.)+turbulence*.16)*3.6,2.));
+        float aurora=(.35+flow*.65)*sheet;
+        float orb=exp(-length(p-vec2(.83,0.08))*.9);
+        vec3 base=vec3(.018,.048,.081);
+        vec3 cyan=vec3(.00,.78,.98);
+        vec3 pink=vec3(1.0,.12,.48);
+        vec3 col=base;
+        col+=cyan*aurora*.25;
+        col+=pink*pow(aurora,1.4)*(.10+.16*flow);
+        col+=cyan*orb*.07;
+        col+=mix(cyan,pink,.5+.5*sin(turbulence*7.+t*4.))*pointer*.11;
+        col+=vec3(.18,.26,.3)*pow(flow,3.)*.05;
+        col+=(hash(floor(gl_FragCoord.xy*.8))-.5)*.02;
+        gl_FragColor=vec4(col,1.);
+      }`;
+      function shader(type,source){const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)){console.warn(gl.getShaderInfoLog(s));return null;}return s;}
+      const vs=shader(gl.VERTEX_SHADER,vertex),fs=shader(gl.FRAGMENT_SHADER,fragment);if(!vs||!fs)return;
+      const program=gl.createProgram();gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))return;
+      gl.useProgram(program);const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
+      const a=gl.getAttribLocation(program,'a');gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,2,gl.FLOAT,false,0,0);
+      const res=gl.getUniformLocation(program,'u_res'),mouse=gl.getUniformLocation(program,'u_mouse'),time=gl.getUniformLocation(program,'u_time');let px=.5,py=.5,visible=true,last=0;
+      banner.addEventListener('pointermove',e=>{const r=banner.getBoundingClientRect();px=(e.clientX-r.left)/r.width;py=1-(e.clientY-r.top)/r.height;});
+      banner.addEventListener('pointerleave',()=>{px=.5;py=.5;});
+      new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;}).observe(banner);
+      function draw(now){
+        if(!reduced)requestAnimationFrame(draw);
+        if(!visible||(!reduced&&now-last<32))return;last=now;
+        const r=banner.getBoundingClientRect(),scale=Math.min(window.devicePixelRatio||1,1.35);
+        const w=Math.max(1,Math.round(r.width*scale)),h=Math.max(1,Math.round(r.height*scale));
+        if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;gl.viewport(0,0,w,h);}
+        gl.uniform2f(res,w,h);gl.uniform2f(mouse,px,py);gl.uniform1f(time,reduced?0:now/1000);gl.drawArrays(gl.TRIANGLES,0,6);
+      }
+      requestAnimationFrame(draw);
+      window.__bannerShaderTest={setPointer(x,y){px=x;py=y;},renderAt(seconds){draw(seconds*1000);}};
+    })();
+  </script>
+</body>
+</html>

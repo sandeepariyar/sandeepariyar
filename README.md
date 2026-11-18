@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Sandeep Pariyar — animated portfolio banner." width="100%"/>
+<img src="assets/banner-shader-preview.gif" alt="Sandeep Pariyar — animated portfolio banner." width="100%"/>
 
 # Sandeep Pariyar
 **Design Engineer · HMI & Design Systems · Frontend & Qt/QML**
@@ -30,6 +30,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <a href="https://sandeepariyar.github.io/revontuli-embedded-ui-demo/compare/"><img src="https://raw.githubusercontent.com/sandeepariyar/revontuli-embedded-ui-demo/main/docs/comparison-home.png" alt="Revontuli Home in the original web design and LVGL side by side" width="100%"/></a>
 <p>Five interactive cabin screens, from climate and seat controls to lighting and media. Compare the original design with LVGL rendering and a C++ state model.</p>
 <p><strong>LVGL · C++ · WebAssembly</strong></p>
+<p><a href="https://sandeepariyar.github.io/revontuli-embedded-ui-demo/compare/"><img src="assets/demo-button.svg" alt="Launch Revontuli live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/revontuli-embedded-ui-demo/compare/"><strong>▶ Try the live demo</strong></a> · <a href="https://github.com/sandeepariyar/revontuli-embedded-ui-demo">Engineering notes &amp; source</a></p>
 </td>
 <td width="50%" valign="top">
@@ -37,6 +38,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <a href="https://sandeepariyar.github.io/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-/#live"><img src="https://raw.githubusercontent.com/sandeepariyar/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-/main/readme-media/nordvent-runtimes.png" alt="NORDVENT live Qt runtime and original web building controls side by side" width="100%"/></a>
 <p>Compare a native Qt Quick interface with its web design reference. Explore room controls, airflow, and blinds, then inspect live C++ state.</p>
 <p><strong>Qt Quick · QML · C++17 · WebAssembly</strong></p>
+<p><a href="https://sandeepariyar.github.io/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-/#live"><img src="assets/demo-button.svg" alt="Launch NORDVENT live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-/#live"><strong>▶ Try the live demo</strong></a> · <a href="https://github.com/sandeepariyar/NORDVENT-Cross-Platform-Smart-Building-HMI-Web-Native-Qt-C-">Engineering notes &amp; source</a></p>
 </td>
 </tr>
@@ -46,6 +48,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <h3>Junaliikenne · Rail traffic operator dashboard</h3>
 <p>Lit Web Components used from React via @lit/react and from plain HTML, explicit live/stale/offline data states from Digitraffic, and axe-core accessibility tests in CI.</p>
 <p><strong>Lit · React · TypeScript · Three.js · Playwright</strong></p>
+<p><a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/"><img src="assets/demo-button.svg" alt="Launch Junaliikenne live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/Junaliikenne-Live---Rail-Traffic-Monitor/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor#design-engineering-case-study">Case study</a> · <a href="https://github.com/sandeepariyar/Junaliikenne-Live---Rail-Traffic-Monitor">View source</a></p>
 </td>
 </tr>
@@ -55,6 +58,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <h3>HELIOS · Energy management cockpit</h3>
 <p>Interactive energy simulation, battery views and optimized UI assets.</p>
 <p><strong>Qt Quick · C++ · Figma</strong></p>
+<p><a href="https://sandeepariyar.github.io/HELIOS-MCU/"><img src="assets/demo-button.svg" alt="Launch HELIOS live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/HELIOS-MCU/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/HELIOS-MCU">View source</a></p>
 </td>
 <td width="50%" valign="top">
@@ -62,6 +66,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <h3>AutoAura · Automotive HMI</h3>
 <p>Animated vehicle interface with charging, climate and door controls.</p>
 <p><strong>Qt 6 · QML · C++ · WebAssembly</strong></p>
+<p><a href="https://sandeepariyar.github.io/AutoAura/"><img src="assets/demo-button.svg" alt="Launch AutoAura live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/AutoAura/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/AutoAura">View source</a></p>
 </td>
 </tr>
@@ -71,6 +76,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <h3>RONIUM · Earth observation</h3>
 <p>Rotatable globe, scroll choreography and a public-imagery mission console.</p>
 <p><strong>React · Three.js · WebGL</strong></p>
+<p><a href="https://sandeepariyar.github.io/ronium-earth-observation/"><img src="assets/demo-button.svg" alt="Launch RONIUM live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/ronium-earth-observation/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/ronium-earth-observation">View source</a></p>
 </td>
 <td width="50%" valign="top">
@@ -78,6 +84,7 @@ Design engineer who takes interfaces from concept and Figma to production code: 
 <h3>ProHealth · 3D anatomy explorer</h3>
 <p>Spatial inspection, anatomy layers and an educational visualization workflow.</p>
 <p><strong>React · TypeScript · Three.js</strong></p>
+<p><a href="https://sandeepariyar.github.io/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform/"><img src="assets/demo-button.svg" alt="Launch ProHealth live demo" width="204"/></a></p>
 <p><a href="https://sandeepariyar.github.io/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform/">Try live demo ↗</a> · <a href="https://github.com/sandeepariyar/ProHealth-Interactive-3D-Human-Anatomy-Healthcare-Learning-Platform">View source</a></p>
 </td>
 </tr>
